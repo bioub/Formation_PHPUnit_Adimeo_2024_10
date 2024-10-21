@@ -1,0 +1,3 @@
+services:
+  App\:
+    public: true
