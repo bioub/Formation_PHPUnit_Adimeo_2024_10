@@ -1,0 +1,22 @@
+{
+    "name": "romain/hello-php-unit",
+    "autoload": {
+        "psr-4": {
+            "Romain\\HelloPhpUnit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Romain\\HelloPhpUnitTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romain Bohdanowicz",
+            "email": "romain.bohdanowicz@formation.tech"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
